@@ -6,7 +6,7 @@ Next, we import or read the dataset. Click here to download the breast cancer da
  After reading the dataset, divide the dataset into concepts and targets. Store the concepts into X and 
  targets into y.
 """
-dataset = pd.read_csv("/content/IRIS.csv ")
+dataset = pd.read_csv("/content/drive/MyDrive/iris data set csv.csv")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 """
